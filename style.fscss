@@ -1,0 +1,17 @@
+$card-background: #FF9955 linear-gradient(30deg,#f44 30% 50%,#44f 80% 100%);
+$card-size: $70px;
+$card-pad: 10px;
+$rgb: rpt(3,'300,');
+$card-fixed-color: hsl(%2(200[,40%]));
+body{
+Background-color: rgb($rgb!1);
+Padding: 20px;
+} 
+$(name: card){
+%2([re(c-bg:'background')])
+       c-bg: $card-c-bg!;
+%2(width, height[:card-size;])
+%2(padding-top, padding-bottom[: $card-pad!;])
+%3(,border-,outline-[color: $card-fixed-color;])
+} 
+
