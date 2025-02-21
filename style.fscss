@@ -10,6 +10,8 @@ Padding: 20px;
 $(name: card){
 %2([re(c-bg:'background')])
        c-bg: $card-c-bg!;
+       Border: 4px solid;
+       Outline: 3px double;
 %2(width, height[:$card-size!;])
 %2(padding-top, padding-bottom[: $card-pad!;])
 %3(,border-,outline-[color: $card-fixed-color!;])
