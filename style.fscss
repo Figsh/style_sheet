@@ -8,8 +8,8 @@ Background-color:rgb();
 Padding: 20px;
 } 
 $(name: card){
-%2([re(c-bg:'background')])
-       c-bg: $card-c-bg!;
+re(c-bg:'background')
+       Background: $card-c-bg!;
        Border: 4px solid;
        Outline: 3px double;
 %2(width, height[:$card-size!;])
